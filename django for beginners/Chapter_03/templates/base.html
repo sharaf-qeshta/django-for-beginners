@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Base</title>
+</head>
+<body>
+<!-- templates/base.html -->
+<header> <!-- this will be repeated through all the files that extends base.html -->
+    <a href="{% url 'home' %}">Home</a> |
+    <a href="{% url 'about' %}">About</a> <!-- access the url by its name defined in urls.py -->
+</header>
+
+{% block content %}
+{% endblock content %}
+
+
+</body>
+</html>

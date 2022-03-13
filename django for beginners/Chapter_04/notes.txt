@@ -1,0 +1,11 @@
+the command 'python manage.py migrate' create the default database
+note: after executing it you will see 'db.sqlite3' in the main directory
+
+the command 'python manage.py makemigrations' used everytime you adjust models.py
+of any app
+
+the command 'python manage.py createsuperuser' used to create am account to login in the admin
+page
+
+
+add 'admin.site.register(ModelName)' to give the admin the ability to modify the db in the admin page

@@ -1,0 +1,7 @@
+1- install python
+2- install django "pip install django"
+3- creating django project by "django-admin startproject example ." or "django-admin startproject example"
+  /* the difference between the two forms is the dotted one create one config file and the manage.py
+   but the other create config/config and config/manage.py */
+
+** i think the second form is better (without dot)

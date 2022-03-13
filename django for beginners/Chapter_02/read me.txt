@@ -1,0 +1,11 @@
+** use pyhton manage.py migrate
+to remove this warning "You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions."
+
+** use python manage.py startapp appName to create new app in the project
+
+** you should add your app 'appName', into INSTALLED_APPS list in settings.py to notify django that you create an app
+
+** Django response/request cycle 
+	URL -> View -> Model (typically) -> Template
+
+
